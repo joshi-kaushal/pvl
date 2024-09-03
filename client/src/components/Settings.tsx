@@ -52,6 +52,8 @@ const Settings: React.FC = () => {
       },
       body: JSON.stringify({ name, gender, age }),
     });
+
+    alert("Added a new user to the db");
   };
 
   return (

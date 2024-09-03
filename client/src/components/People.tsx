@@ -28,6 +28,7 @@ const People: React.FC = () => {
         setPeople(data);
       } catch (err) {
         setError("Error fetching people data");
+        alert("Something went wrong while fetching people's data");
       } finally {
       }
     };
